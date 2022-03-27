@@ -43,8 +43,8 @@ function FeedbackForm() {
         rating,
       };
 
-      if (feedbackEdit.item === true) {
-        updateFeedback(feedbackEdit.id, newFeedback);
+      if (feedbackEdit.edit === true) {
+        updateFeedback(feedbackEdit.item.id, newFeedback);
       } else {
         addFeedback(newFeedback);
       }
