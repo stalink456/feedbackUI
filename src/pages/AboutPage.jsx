@@ -8,7 +8,7 @@ function AboutPage() {
         <div className="about">
             <h1>About this project</h1>
             <p>This app about leave a feedback</p>
-            <p>Vesion: 1.0.0</p>
+            <p>Vesion: 1.1</p>
 
             <p>
             <Link to="/">Back to home</Link>
