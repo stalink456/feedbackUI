@@ -7,7 +7,9 @@ function RatingSelect({ select }) {
   const { feedbackEdit } = useContext(FeedbackContext);
 
   useEffect(() => {
-    setSelected(feedbackEdit.item.rating);
+    isNaN(feedbackEdit.item.rating)
+      ? setSelected(selected)
+      : setSelected(+feedbackEdit.item.rating);
   }, [feedbackEdit]);
 
   const handleChange = (e) => {
