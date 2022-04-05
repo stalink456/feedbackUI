@@ -4,26 +4,6 @@
       "text": "This is feedback text 1 from DB",
       "rating": 1,
       "id": 1
-    },
-    {
-      "text": "Kran Kristina Dran",
-      "rating": 1,
-      "id": 5
-    },
-    {
-      "rating": "10",
-      "text": "Kristina Podrannikova <3",
-      "id": 6
-    },
-    {
-      "rating": "10",
-      "text": "Kristina Podrannikova <3",
-      "id": 7
-    },
-    {
-      "text": "Kristina Podrannikova <333",
-      "rating": "10",
-      "id": 8
     }
   ]
 }
