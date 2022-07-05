@@ -4,13 +4,13 @@ import React from "react";
 function Header({ text, bgColor, textColor }) {
   const headerStyles = {
     backgroundColor: bgColor,
-    color: textColor
+    color: textColor,
   };
 
   return (
     <div style={headerStyles}>
       <div className="container">
-        <h2 style={{textAlign: 'center'}}>{text}</h2>
+        <h2 style={{ textAlign: "center" }}>{text}</h2>
       </div>
     </div>
   );
